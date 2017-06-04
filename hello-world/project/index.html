@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>NBA中国官方网站</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/layout.css"/>
+    <link rel="stylesheet" href="css/foot.css"/>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="playOff">
+    <a href=""><img src="img/playoff_416175.png" alt="" /></a>
+    <span class="close">×</span>
+</div>
+<!--页头-->
+<div class="header">
+    <div class="header-main">
+        <div class="header-logo left">
+            <!--<img src="img/logo-new01.png" alt="nbaLogo"/>-->
+            <!--跳转到中国官网-->
+            <a href="#" class="link-china" >NBA中国官方网站</a>
+            <!--跳转到NBA官网-->
+            <a href="#" class="link-NBA">NBA.com</a>
+        </div>
+        <ul class="header-button right">
+            <li><a href="#"><img src="img/s4.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/s5.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/s2.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/s3.png" alt=""/></a></li>
+            <li class="NBASTORE">
+                <a href="#"><img src="img/s1.png" alt=""/></a><span class="arrow-down"></span>
+                <ul id="store-list">
+                    <li><a href="javascript:location.href='tpl/shop.html'">球衣</a></li>
+                    <li><a href="">球裤</a></li>
+                    <li><a href="">T恤</a></li>
+                    <li><a href="">球鞋</a></li>
+                    <li><a href="">科比专区</a></li>
+                    <li><a href="">库里专区</a></li>
+                    <li><a href="">乔丹专区</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="nav">
+        <!--导航栏左侧-->
+        <div class="nav-left left">
+            <ul id="nav-list">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">视频</a></li>
+                <li><a href="#">新闻</a></li>
+                <li><a href="#">图集</a></li>
+                <li class="img-arrow-down"><a href="#">球队</a>
+                    <ul id="team">
+                        <li class="left">
+                            <ol class="height">
+                              <li style="background-color: black;color: white">东部联盟</li>
+                                <li>
+                                    <span>东南赛区</span>
+                                    <span>中部赛区</span>
+                                    <span>大西洋赛区</span>
+                                </li>
+                                <li>
+                                    <a href="#">黄蜂</a>
+                                    <a href="#">骑士</a>
+                                    <a href="#">猛龙</a>
+                                </li>
+                                <li>
+                                    <a href="#">老鹰</a>
+                                    <a href="#">公牛</a>
+                                    <a href="#">尼克斯</a>
+                                </li>
+                                <li>
+                                    <a href="#">奇才</a>
+                                    <a href="#">活塞</a>
+                                    <a href="#">凯尔特人</a>
+                                </li>
+                                <li>
+                                    <a href="#">魔术</a>
+                                    <a href="#">步行者</a>
+                                    <a href="#">篮网</a>
+                                </li>
+                                <li>
+                                    <a href="#">热火</a>
+                                    <a href="#">雄鹿</a>
+                                    <a href="#">76人</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li class="right">
+                            <ol>
+                                <li style="background-color: black;color: white">西部联盟</li>
+                                <li>
+                                    <span>大西洋赛区</span>
+                                    <span>西北赛区</span>
+                                    <span>西南赛区</span>
+                                </li>
+                                <li>
+                                    <a href="#">勇士</a>
+                                    <a href="#">爵士</a>
+                                    <a href="#">马刺</a>
+                                </li>
+                                <li>
+                                    <a href="#">快船</a>
+                                    <a href="#">雷霆</a>
+                                    <a href="#">火箭</a>
+                                </li>
+                                <li>
+                                    <a href="#">国王</a>
+                                    <a href="#">开拓者</a>
+                                    <a href="#">灰熊</a>
+                                </li>
+                                <li>
+                                    <a href="#">湖人</a>
+                                    <a href="#">掘金</a>
+                                    <a href="#">鹈鹕</a>
+                                </li>
+                                <li>
+                                    <a href="#">太阳</a>
+                                    <a href="#">森林狼</a>
+                                    <a href="#">小牛</a>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+                <li class="img-arrow-down"><a href="#">球员</a>
+                    <ul id="player" class="drop-list">
+                        <li><a href="">现役球员</a></li>
+                        <li><a href="">退役球员</a></li>
+                    </ul>
+                </li>
+                <li class="img-arrow-down"><a href="#">赛程</a>
+                    <ul id="schedule" class="drop-list">
+                        <li><a href="">赛程</a></li>
+                        <li><a href="">季后赛</a></li>
+                        <li><a href="">2016-17赛季重要日期</a></li>
+                    </ul>
+                </li>
+                <li class="img-arrow-down"><a href="#">排名</a>
+                    <ul id="order" class="drop-list">
+                        <li><a href="">联盟排名</a></li>
+                    </ul>
+                </li>
+                <li class="img-arrow-down"><a href="#">数据</a>
+                    <ul id="data" class="drop-list">
+                        <li><a href="">球员数据</a></li>
+                        <li><a href="">球队数据</a></li>
+                        <li><a href="">高级球队数据</a></li>
+                        <li><a href="">联盟数据王</a></li>
+                    </ul>
+                </li>
+                <li class="img-arrow-down"><a href="#">专题</a>
+                    <ul id="topic" class="drop-list">
+                        <li><a href="">NBA历史</a></li>
+                        <li><a href="">NBA50大巨星</a></li>
+                        <li><a href="">NBA扣响盛夏</a></li>
+                        <li><a href="">犯规手册</a></li>
+                        <li><a href="">NBA知识Q&A</a></li>
+                    </ul>
+                </li>
+                <li class="img-arrow-down"><a href="#">更多</a>
+                    <ul id="more" class="drop-list">
+                        <li><a href="">全明星赛</a></li>
+                        <li><a href="">国际赛</a></li>
+                        <li><a href="">选秀大会</a></li>
+                        <li><a href="">NBA乐园</a></li>
+                        <li><a href="">游戏</a></li>
+                        <li><a href="">NBA就职</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!--导航栏右侧-->
+        <div class="nav-right right">
+            <img src="img/search.png" alt="" class="search-button"/>
+            <div class="search-info">
+                <a class="left" style="background-color: white"><img src="img/icon_20_search_blue_af9f93.png" alt="图片"/></a>
+                <input class="right" type="text" placeholder="搜全文"/>
+            </div>
+             <span class="user-button">
+                 <img src="img/user.png" alt="用户登录"/>
+                 <div class="user-info">
+                     <p style="color: white;width: 140px">您好，请您登录</p>
+                     <button class="login-button">登录</button>
+                 </div>
+             </span>
+        </div>
+    </div>
+</div>
+<!--第二页头-->
+<div class="header2">
+    <div class="nav-left left">
+        <ul id="nav-list2">
+            <li><img class="logo2" src="img/logo-new01.png" alt="NBA"/>
+                <span style="color: white; font-weight: 800;font-size: 26px">NBA</span></li>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">视频</a></li>
+            <li><a href="#">新闻</a></li>
+            <li><a href="#">图集</a></li>
+            <li class="img-arrow-down"><a href="#">球队</a>
+                <ul id="team2">
+                    <li class="left">
+                        <ol>
+                            <li style="background-color: black;color: white">东部联盟</li>
+                            <li><span>东南赛区</span><span>中部赛区</span><span>大西洋赛区</span></li>
+                            <li><a href="#">黄蜂</a>
+                                <a href="#">骑士</a>
+                                <a href="#">猛龙</a>
+                            </li>
+                            <li><a href="#">老鹰</a>
+                                <a href="#">公牛</a>
+                                <a href="#">尼克斯</a>
+                            </li>
+                            <li><a href="#">奇才</a>
+                                <a href="#">活塞</a>
+                                <a href="#">凯尔特人</a>
+                            </li>
+                            <li><a href="#">魔术</a>
+                                <a href="#">步行者</a>
+                                <a href="#">篮网</a>
+                            </li>
+                            <li><a href="#">热火</a>
+                                <a href="#">雄鹿</a>
+                                <a href="#">76人</a>
+                            </li>
+                        </ol>
+                     </li>
+                     <li class="right">
+                        <ol>
+                        <li style="background-color: black;color: white">西部联盟</li>
+                        <li><span>大西洋赛区</span><span>西北赛区</span><span>西南赛区</span></li>
+                        <li><a href="#">勇士</a>
+                            <a href="#">爵士</a>
+                            <a href="#">马刺</a>
+                        </li>
+                        <li><a href="#">快船</a>
+                            <a href="#">雷霆</a>
+                            <a href="#">火箭</a>
+                        </li>
+                        <li><a href="#">国王</a>
+                            <a href="#">开拓者</a>
+                            <a href="#">灰熊</a>
+                        </li>
+                        <li><a href="#">湖人</a>
+                            <a href="#">掘金</a>
+                            <a href="#">鹈鹕</a>
+                        </li>
+                        <li><a href="#">太阳</a>
+                            <a href="#">森林狼</a>
+                            <a href="#">小牛</a>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li class="img-arrow-down"><a href="#">球员</a>
+            <ul id="player2" class="drop-list">
+                <li><a href="">现役球员</a></li>
+                <li><a href="">退役球员</a></li>
+            </ul>
+        </li>
+        <li class="img-arrow-down"><a href="#">赛程</a>
+            <ul id="schedule2" class="drop-list">
+                <li><a href="">赛程</a></li>
+                <li><a href="">季后赛</a></li>
+                <li><a href="">2016-17赛季重要日期</a></li>
+            </ul>
+        </li>
+        <li class="img-arrow-down"><a href="#">排名</a>
+            <ul id="order2" class="drop-list">
+                <li><a href="">联盟排名</a></li>
+            </ul>
+        </li>
+        <li class="img-arrow-down"><a href="#">数据</a>
+            <ul id="data2" class="drop-list">
+                <li><a href="">球员数据</a></li>
+                <li><a href="">球队数据</a></li>
+                <li><a href="">高级球队数据</a></li>
+                <li><a href="">联盟数据王</a></li>
+            </ul>
+        </li>
+        <li class="img-arrow-down"><a href="#">专题</a>
+            <ul id="topic2" class="drop-list">
+                <li><a href="">NBA历史</a></li>
+                <li><a href="">NBA50大巨星</a></li>
+                <li><a href="">NBA扣响盛夏</a></li>
+                <li><a href="">犯规手册</a></li>
+                <li><a href="">NBA知识Q&A</a></li>
+            </ul>
+        </li>
+        <li class="img-arrow-down"><a href="#">更多</a>
+            <ul id="more2" class="drop-list">
+                <li><a href="">全明星赛</a></li>
+                <li><a href="">国际赛</a></li>
+                <li><a href="">选秀大会</a></li>
+                <li><a href="">NBA乐园</a></li>
+                <li><a href="">游戏</a></li>
+                <li><a href="">NBA就职</a></li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+    <div class="nav-right2">
+        <span class="user-button2">
+            <img src="img/user.png" alt="用户登录"/>
+            <div class="user-info2">
+                <p style="color: white;width: 140px">您好，请您登录</p>
+                <button class="login-button">登录</button>
+            </div>
+        </span>
+    </div>
+</div>
+<!--主体-->
+<div id="main">
+    <table></table>
+    <!--赛事导航-->
+    <div class="game-nav">
+        <table></table>
+        <!--左侧导航栏-->
+        <div class="gnl left">
+            <table></table>
+            <p class="fl"><a class="left"><</a><span class="left">5月16日星期二</span><a href="" class="left">></a></p>
+            <div class="game-num">1场比赛</div>
+            <p class="allgames">全部赛程</p>
+        </div>
+        <!--右侧详情-->
+        <div class="nav_details left">
+            <a style="color: black" class="block left"><</a>
+            <ul class="left">
+                <li class="inline-block">
+                    <ol class="game-details">
+                        <li class="first_li">BesTV CCTV-5 腾讯</li>
+                        <li class="second_li">
+                            <a class="left_side inline-block">100</a>
+                            <b class="inline-block">-</b>
+                            <a class="right_side inline-block">136</a>
+                        </li>
+                        <li class="third_li"><a>马刺</a><a>结束</a><a>勇士</a></li>
+                        <li class="forth_li">
+                            <a>61-21</a><a>勇士领先2-0</a><a>67-15</a>
+                        </li>
+                        <ul class="model none">
+                            <li><a href="#" style="color: white;font-size: 14px">☛腾讯</a></li>
+                            <li><a href="#" style="color: white;font-size: 14px">☛联盟通</a></li>
+                            <li><a href="#" style="color: white;font-size: 14px">技术统计</a></li>
+                            <li><a href="#" style="color: white;font-size: 14px">文字直播</a></li>
+                        </ul>
+                    </ol>
+                    <span class="fifth_li inline-block"></span>
+                </li>
+            </ul>
+            <a style="color: black" class="block right">></a>
+        </div>
+    </div>
+    <!--轮播动画和每日要闻-->
+    <div class="news">
+        <div class="ad-news left">
+            <div class="animate left">
+                <ul id="ad">
+                    <li><img src="img/banner01.jpg" alt=""/><h3>西部决赛！勇士2:0领先马刺！</h3></li
+                        ><li><img src="img/banner02.jpg" alt=""/><h3>西部决赛！勇士2:0领先马刺！</h3></li
+                        ><li><img src="img/banner03.jpg" alt=""/><h3>西部决赛！勇士2:0领先马刺！</h3></li
+                        ><li><img src="img/banner04.png" alt=""/><h3>西部决赛！勇士2:0领先马刺！</h3></li
+                        ><li><img src="img/banner05.jpg" alt=""/><h3>西部决赛！勇士2:0领先马刺！</h3></li>
+                </ul>
+                <span id="ad_points">
+                    <a href="#" class="current" ></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </span>
+                <a class="prev" href="#"><img src="img/arrow-prev-ico_9eac39.png" alt=""/></a>
+                <a class="next" href="#"><img src="img/arrow-next-ico_ace78f.png" alt=""/></a>
+            </div>
+        </div>
+        <!--列表新闻-->
+        <ul class="list-news left">
+            <li><a href="#"><img src="img/143764251.jpg" alt=""/></a><span><a href="#">特辑-11次平纪录 詹姆斯生涯最佳一阵全回顾</a></span></li>
+            <li><a href="#"><img src="img/143779094.jpg" alt=""/></a><span><a href="#">专栏：以暴制暴 火箭式进攻可掀翻？勇士</a></span></li>
+            <li><a href="#"></a><img src="img/143786755.jpg" alt=""/></a><span><a href="#">20日数据酷：骑士半场领先41分创史上最大分差</a></span></li>
+            <li><a href="#"></a><img src="img/143790119.jpg" alt=""/></a><span><a href="#">原创：哪里有神奇 哪里就有JR</a></span></li>
+        </ul>
+        <!--要闻-->
+        <div class="impnews-fresh right">
+            <p class="impnews-title"><b>要闻</b><a class="block right" id="btn" href="#"><img src="img/icon_24_refresh_white_da479d.png" alt=""/>换一换</a></p>
+            <ul>
+                <li><a href="#">伦纳德将缺战G3 波波维奇：这是我的决定</a></li>
+                <li><a href="#">杰弗森回击比尔：你们为什么不打进东决呢</a></li>
+                <li><a href="#">手臂伤势加重 小托马斯将缺席剩余季后赛</a></li>
+                <li><a href="#">帕楚里亚卢尼将因伤缺阵G3 一哥可能出战</a></li>
+                <li><a href="#">曝伊巴卡续约接近完成 起薪约2000万美元</a></li>
+                <li><a href="#">开拓者否决老鹰接触球队总经理的申请</a></li>
+                <li><a href="#">开拓者否决老鹰接触球队总经理的申请</a></li>
+                <li><a href="#">开拓者否决老鹰接触球队总经理的申请</a></li>
+                <li><a href="#">开拓者否决老鹰接触球队总经理的申请</a></li>
+                <li><a href="#">开拓者否决老鹰接触球队总经理的申请</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--最新资讯和球队排名-->
+    <div class="news-tab height">
+        <!--球队资讯-->
+        <div class="news-tab-left left">
+            <p class="news-tab-title">
+                <a href="#"><img src="img/news-title-ico_241386.png" alt=""/>最新资讯</a>
+                <a href="#">添加主队 <img src="img/icon_16_addteam_cae572.png" alt=""/></a>
+            </p>
+            <p class="refresh clear"><a href="#"><img src="img/switch-icon_5966ef.png" alt=""/>换一换</a></p>
+            <ul class="news-tab-list">
+                <li class="news-tab-list-firstLi">
+                    <a href="#" class="left"><img src="img/143795209.jpg" alt=""/></a>
+                    <span><img src="img/icon_24_news_white_db31d6.png" alt=""/>单节19分大杀四方 死神杜再现奠定胜局</span>
+                    <a href="#" class="right"><img src="img/143795181.jpg" alt=""/></a>
+                    <span><img src="img/icon_24_news_white_db31d6.png" alt=""/>绝境还看马努 吉诺比利全队最高21分</span>
+                </li>
+                <li class="news-tab-list-secondLi">
+                    <ol id="lis">
+                        <li>
+                            <dt><a href="#"><img src="img/143795175.jpg" alt=""/></a></dt>
+                            <dl>四巨头合砍81分 勇士客胜马刺系列赛3-0</dl>
+                            <dl class="textright bg-img1">2017-05-21 11:37</dl>
+                        </li>
+                        <li>
+                            <dt><a href="#"><img src="img/143794527.jpg" alt=""/></a></dt>
+                            <dl>四巨头合砍81分 勇士客胜马刺系列赛3-0</dl>
+                            <dl class="textright bg-img2">2017-05-21 11:37</dl>
+                        </li>
+                        <li>
+                            <dt><a href="#"><img src="img/143794212.jpg" alt=""/></a></dt>
+                            <dl>四巨头合砍81分 勇士客胜马刺系列赛3-0</dl>
+                            <dl class="textright bg-img1">2017-05-21 11:37</dl>
+                        </li>
+                    </ol>
+                </li>
+                <li class="moreNews">
+                    <a href="#">更多资讯</a>  <img src="img/icon_16_arrow_right_blue_1f8b71.png" alt=""/>
+                </li>
+            </ul>
+        </div>
+        <!--球队排名-->
+        <div class="team-rank right height">
+            <ul>
+            <li id="btns">
+                <button class="clicked" id="lm-rank">联盟排名</button>
+                <button id="area-rank">分区排名</button>
+            </li>
+            <li id="links">
+                <a><span class="span active" id="east"><img src="img/eastern_logo.png" alt=""/>东部联盟</span></a>
+                <a><span class="span" id="west"><img src="img/western_logo.png" alt=""/>西部联盟</span></a>
+            </li>
+        </ul>
+            <table id="team-rank">
+            </table>
+        </div>
+    </div>
+    <!--视频轮播-->
+    <div id="videos" class="height">
+        <!--视频导航-->
+        <div class="video-nav">
+            <b class="block left">视频</b>
+            <ul>
+                <li class="left selected">比赛</li>
+                <li class="left">最佳</li>
+                <li class="left">专题</li>
+            </ul>
+            <a href="#" class="block right" style="color: #2464C5">更多></a>
+        </div>
+        <!--视频详情-->
+        <div class="video-details block height">
+            <p class="first_p">
+                <a href="#" class="margin-r15" >
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+            </p>
+            <p class="second_p">
+                <a href="#" class="margin-r15" >
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#">
+                    <img src="img/1.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+            </p>
+            <a class="prev2"><img src="img/arrow-prev-ico_9eac39.png" alt=""/></a>
+            <a class="next2"><img src="img/arrow-next-ico_ace78f.png" alt=""/></a>
+        </div>
+        <div class="video-details none">
+            <p class="first_p">
+                <a href="#" class="margin-r15" >
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+            </p>
+            <p class="second_p">
+                <a href="#" class="margin-r15" >
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#">
+                    <img src="img/2.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+            </p>
+            <a class="prev2"><img src="img/arrow-prev-ico_9eac39.png" alt=""/></a>
+            <a class="next2"><img src="img/arrow-next-ico_ace78f.png" alt=""/></a>
+        </div>
+        <div class="video-details none height">
+            <p class="first_p">
+                <a href="#" class="margin-r15" >
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+            </p>
+            <p class="second_p">
+                <a href="#" class="margin-r15" >
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#" class="margin-r15">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+                <a href="#">
+                    <img src="img/3.jpg" alt=""/>
+                    <span>视频-24日五佳球 乐福精确制导惊艳全场</span>
+                    <b>2017-5-11</b>
+                </a>
+            </p>
+            <a class="prev2"><img src="img/arrow-prev-ico_9eac39.png" alt=""/></a>
+            <a class="next2"><img src="img/arrow-next-ico_ace78f.png" alt=""/></a>
+        </div>
+    </div>
+    <div class="special-topic-container">
+        <h2><img src="//mat1.gtimg.com/chinanba/web/statics/special-topic-icon_825deb.png">专题</h2>
+        <div class="height" style="width: 100%">
+        <ul class="left" style="width: 75%">
+            <li class="left" style="position: relative;margin-bottom: 20px;
+    margin-right: 15px;">
+                <a href="http://china.nba.com/topics/50players.htm" target="_blank">
+                    <img class="background-img" src="//mat1.gtimg.com/chinanba/web/statics/zt_50stars_6ff907.jpg">
+                    <img class="bottom-img" src="//mat1.gtimg.com/chinanba/web/statics/special-topic-nba-50_56ad4e.png">
+                </a>
+            </li>
+            <li class="left relative" style="position: relative;margin-bottom: 20px;
+    margin-right: 15px;">
+                <a href="http://nbachina.qq.com/a/20151004/023756.htm" target="_blank">
+                    <img class="background-img" src="//mat1.gtimg.com/chinanba/web/statics/zt_mvp_2c2127.jpg">
+                    <img class="bottom-img" src="//mat1.gtimg.com/chinanba/web/statics/special-topic-mvp_893d53.png">
+                </a>
+            </li>
+            <li class="left relative" style="position: relative;margin-bottom: 20px;
+    margin-right: 15px;">
+                <a href="http://nbachina.qq.com/a/20151004/023886.htm" target="_blank">
+                    <img class="background-img" src="//mat1.gtimg.com/chinanba/web/statics/zt_fmvp_5038fd.jpg">
+                    <img class="bottom-img" src="//mat1.gtimg.com/chinanba/web/statics/special-topic-champion_28e9fc.png">
+                </a>
+            </li>
+            <li class="left relative" style="position: relative;margin-bottom: 20px;
+    margin-right: 15px;">
+                <a href="http://china.nba.com/topics/mitan.htm" target="_blank">
+                    <img class="background-img" src="//mat1.gtimg.com/chinanba/web/statics/zt_nbamt_a81c5e.jpg">
+                    <img class="bottom-img" src="//mat1.gtimg.com/chinanba/web/statics/special-topic-secret-agent_d216f2.png">
+                </a>
+            </li>
+            <li class="left relative" style="position: relative;margin-bottom: 20px;
+    margin-right: 15px;">
+                <a href="http://china.nba.com/topics/association.htm" target="_blank">
+                    <img class="background-img" src="//mat1.gtimg.com/chinanba/web/statics/zt_allstar_a443c8.jpg">
+                    <img class="bottom-img" src="//mat1.gtimg.com/chinanba/web/statics/special-topic-proud_0bfb52.png">
+                </a>
+            </li>
+            <li class="left relative" style="position: relative;margin-bottom: 20px;
+    margin-right: 15px;">
+                <a href="http://china.nba.com/topics/summerofslam.htm" target="_blank">
+                    <img class="background-img" src="//mat1.gtimg.com/chinanba/web/statics/zt_kxsx_d1827f.jpg">
+                    <img class="bottom-img" src="//mat1.gtimg.com/chinanba/web/statics/special-topic-midsummer_a206b0.png">
+                </a>
+            </li>
+        </ul>
+        <div class="right survy">
+            <p>调查</p>
+            <form id="survy">
+                <h5>第五场骑士能否结束系列赛</h5>
+                <input type="radio" value="1" name="able"/>能 <br/>
+                <input type="radio" value="0" name="able"/>不能 <br/>
+                <input type="button" value="提交"/>
+                <input type="button" value="查看"/>
+            </form>
+            <a><img src="img/special-topic-rule_bae3cc.png" alt=""/></a>
+        </div>
+            <div style="clear: both"></div>
+        </div>
+        <ul id="social-media-list">
+            <li>
+                <a href="http://weibo.com/nba" target="_blank">
+                    <img src="//mat1.gtimg.com/chinanba/web/statics/icon_weibo_821f76.jpg" class="media-icon">
+                    <span>微博</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">
+                    <img src="//mat1.gtimg.com/chinanba/web/statics/media-wx-ico_a7a28c.png" class="js-ico media-icon">
+                    <span>NBA 微信</span>
+
+                </a>
+                <img src="//mat1.gtimg.com/chinanba/web/statics/media-wx-qrcode_af2888.png" class="qrcode">
+            </li>
+            <li>
+                <a href="javascript:void(0)">
+                    <img src="//mat1.gtimg.com/chinanba/web/statics/media-today-ico_6de441.png" class="js-ico media-icon" />
+                    <span>NBA Today</span>
+                </a>
+                <img src="//mat1.gtimg.com/chinanba/web/statics/media-today-qrcode_b7a696.png" class="qrcode" />
+            </li>
+            <li>
+                <a href="javascript:void(0)">
+                    <img src="//mat1.gtimg.com/chinanba/web/statics/media-pz-ico_f23438.png" class="js-ico media-icon">
+                    <span class="nab-zone">NBAPlayzone</span>
+                </a>
+                <img src="//mat1.gtimg.com/chinanba/web/statics/media-pz-qrcode_9485b6.png" class="qrcode" >
+            </li>
+            <li>
+                <a href="javascript:void(0)">
+                    <img src="//mat1.gtimg.com/chinanba/web/statics/media-qq-ico_1143cd.png" class="js-ico media-icon">
+                    <span>NBA QQ</span>
+                </a>
+                <img src="//mat1.gtimg.com/chinanba/web/statics/media-qq-qrcode_02f9c8.png" class="qrcode" >
+            </li>
+            <li>
+                <a href="javascript:void(0)">
+                    <img src="//mat1.gtimg.com/chinanba/web/statics/media-ttnba-ico_e72401.png" class="js-ico media-icon">
+                    <span>TTNBA</span>
+                </a>
+                <img src="//mat1.gtimg.com/chinanba/web/statics/media-ttnba-qrcode_d65aae.png" class="qrcode">
+            </li>
+            <li>
+                <a href="javascript:void(0)">
+                    <img src="//mat1.gtimg.com/chinanba/web/statics/media-store-ico_81928b.png" class="js-ico media-icon">
+                    <span>NBA Store</span>
+                </a>
+                <img src="//mat1.gtimg.com/chinanba/web/statics/media-store-qrcode_0ac518.png" class="qrcode" style="padding: 10px;box-sizing: border-box;background-color: white">
+            </li>
+            <li>
+                <a href="javascript:void(0)">
+                    <img src="//mat1.gtimg.com/chinanba/web/statics/media-xh-ico_b8dc69.png" class="js-ico media-icon">
+                    <span>NBA 鞋会</span>
+                </a>
+                <img src="//mat1.gtimg.com/chinanba/web/statics/media-xh-qrcode_d544f3.png" class="qrcode" style="padding: 10px; box-sizing: border-box;background-color: white">
+            </li>
+        </ul>
+        <div class="nba-partner">
+            <h3>NBA官方合作伙伴</h3>
+            <div class="partners-list">
+                <a href="https://www.2k.com/games" target="_blank"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_01_79da27.jpg"></a>
+                <a href="http://www.adidas.com/cn/basketball" target="_blank"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_02_084a68.jpg"></a>
+                <a href="https://www.americanairlines.cn" target="_blank"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_03_7e93ea.jpg"></a>
+                <a href="http://www.anta.com/" target="_blank"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_04_a3917e.jpg"></a>
+                <a href="http://www.clearad.com.cn/" target="_blank"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_05_17d6a3.jpg"></a>
+                <a href="http://www.1hai.cn/?channelId=200144" target="_blank"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_06_2d4d93.jpg"></a>
+                <a href="http://www.gatoradechina.com/" target="_blank"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_07_f90317.jpg"></a>
+                <a href="http://www.harbin-beer.com.cn/index.html" target="_blank"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_08_b60bda.jpg"></a>
+                <a href="http://www.marriott.com.cn/rewards/rewards-program.mi" target="_blank"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_09_4bbec0.jpg"></a>
+                <a href="http://www.masterkong.com.cn/" target="_blank"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_10_004887.jpg"></a>
+                <a href="http://www.mengniu.com.cn/" target="_blank" class="bottom-partner"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_11_596999.jpg"></a>
+                <a href="https://www.mobiloil.com.cn/zh" target="_blank" class="bottom-partner"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_12_3aad33.jpg"></a>
+                <a href="http://www.nike.com/basketball" target="_blank" class="bottom-partner"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_13_9395e6.jpg"></a>
+                <a href="http://www.dongfeng-nissan.com.cn/" target="_blank" class="bottom-partner"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_14_d1f56f.jpg"></a>
+                <a href="https://www.sap.com/china/index.html" target="_blank" class="bottom-partner"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_15_901a5b.jpg"></a>
+                <a href="http://www.spaldingchina.com.cn/" target="_blank" class="bottom-partner"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_16_06e8ee.jpg"></a>
+                <a href="https://www.tissotwatches.cn/sale/family/nba.html" target="_blank" class="bottom-partner"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_17_be3828.jpg"></a>
+                <a href="https://www.underarmour.cn/?utm_channel=digital&amp;utm_source=NBA&amp;utm_campaign=20170217NBA&amp;utm_adgroup=hp&amp;utm_content=banner" target="_blank" class="bottom-partner"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_18_d5bf85.jpg"></a>
+                <a href="http://www.vivo.com.cn/" target="_blank" class="bottom-partner"><img src="//mat1.gtimg.com/chinanba/web/statics/logo_partner_19_fcc4b4.jpg"></a>
+            </div>
+            <p class="partner-channel">
+                商务合作请洽：&nbsp;
+                <span>蒋骜飞&nbsp;办公电话：(010)5200-8218&nbsp;&nbsp;手机：186-1126-6618&nbsp;&nbsp;邮箱：ojiang@nba.com&nbsp;|&nbsp;</span>
+                <span>吴奕格&nbsp;办公电话：(010)5200-8248&nbsp;&nbsp;手机：186-1126-6664&nbsp;&nbsp;邮箱：wwu@nba.com</span>
+            </p>
+        </div>
+    </div>
+</div>
+<!--页尾-->
+<div id="footer">
+    <div class="about">
+        <ul>
+            <li>
+                <dt>关于</dt>
+                <dl>NBA Store</dl>
+                <dl>NBA就职机会</dl>
+            </li>
+            <li>
+                <dt>NBA 赛事</dt>
+                <dl>2016年夏季联赛</dl>
+                <dl>2016年选秀大会</dl>
+                <dl>2016年总决赛</dl>
+                <dl>2016年全明星</dl>
+                <dl>2016年jr.NBA高中赛</dl>
+            </li>
+            <li>
+                <dt>专题</dt>
+                <dl>2016年休赛期转会</dl>
+                <dl>联盟的骄傲</dl>
+                <dl>新春贺岁</dl>
+                <dl>扣篮盛夏</dl>
+            </li>
+            <li>
+                <dt>NBA101</dt>
+                <dl>NBA历史</dl>
+                <dl>NBA50大球星</dl>
+                <dl>NBA知识Q&A</dl>
+            </li>
+            <li>
+                <dt>腾讯体育</dt>
+                <dl><img src="img/footer-sports-qrcode_c4a619.png" alt=""/></dl>
+            </li>
+            <li>
+                <dt>NBA官方应用</dt>
+                <dl><img src="img/footer-nba-qrcode_689c63.png" alt=""/></dl>
+            </li>
+        </ul>
+    </div>
+    <div class="copyright-content">
+        <p>&copy;2017年著作权 NBA 中国 所有权保留。</p>
+        <p>
+            上除去<a target="_blank" href="http://china.nba.com/">NBA.com/China</a>
+            <a target="_blank" href="http://nbachina.qq.com/a/20150623/047888.htm">使用条款</a>
+            中所特别提及的部分之外，其它任何内容都不得以任何形式被复制、再传播，或篡改。
+        </p>
+        <p>
+            进入
+            <a target="_blank" href="http://china.nba.com/">NBA.com/China</a>
+            后，即表示阁下同意遵守
+            <a target="_blank" href="http://china.nba.com/">NBA.com/China</a>的
+            <a target="_blank" href="http://nbachina.qq.com/a/20150623/047968.htm">隐私政策</a>和
+            <a target="_blank" href="http://nbachina.qq.com/a/20150623/047888.htm">使用条款</a>。
+        </p>
+        <p>
+            有任何的建议和意见，都欢迎联络我们：
+            <a href="mailto:NBAChinaInfo@nba.com">NBAChinaInfo@nba.com</a>
+        </p>
+        <p>
+            有关NBA商品授权合作事宜，敬请联系:
+            <a href="mailto:GMGChinaBusinessInquiry@nba.com">GMGChinaBusinessInquiry@nba.com</a>
+        </p>
+    </div>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/ajax_func.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
